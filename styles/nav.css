@@ -20,3 +20,9 @@ nav ul li:last-child img {
   align-items: center;
   border-radius: 50%;
 }
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
+}

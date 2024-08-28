@@ -49,3 +49,15 @@ header {
   align-items: center;
   gap: 8px;
 }
+
+@media (max-width: 480px) {
+  .container_header {
+    display: contents;
+    flex-direction: column;
+  }
+
+  #profile {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
