@@ -10,6 +10,12 @@ header {
   margin-inline: auto;
 }
 
+.profile_avatar {
+  height: 11rem;
+  width: 11rem;
+  border-radius: 50%;
+}
+
 #profile {
   display: flex;
   gap: 32px;
