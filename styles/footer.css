@@ -1,0 +1,9 @@
+footer {
+  display: flex;
+  font: 14px/150% var(--fonty-family);
+}
+
+.container {
+  justify-content: space-between;
+  padding: 32px;
+}
